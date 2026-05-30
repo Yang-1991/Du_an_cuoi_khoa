@@ -1,0 +1,21 @@
+{
+  "name": "du-an-cuoi-khoa-airbnb",
+  "version": "1.0.0",
+  "description": "API Airbnb CRUD don gian bang Node.js, Express, Sequelize va MySQL",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.11.5",
+    "nodemon": "^3.1.14",
+    "sequelize": "^6.37.5",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
